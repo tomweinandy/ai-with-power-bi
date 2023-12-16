@@ -1,0 +1,56 @@
+Sample O'Reilly books and videos,,
+,,
+Note about the data: The prices are randomly generated and do not correspond to actual prices on Amazon or otherwise,,
+,,
+,,
+Title,Authors,Amazon Price
+"(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide, 9th Edition","M. Chapple, J. M. Stewart, D. Gibson",book  32.72
+"A Guide to the Project Management Body of Knowledge ( PMBOK® Guide )—Sixth Edition","Project Management Institute",book  46.86
+"A Guide to the Project Management Body of Knowledge (PMBOK® Guide) – Seventh Edition and The Standard for Project Management","Project Management Institute",book  31.09
+"Angular - The Complete Guide [2023 Edition]","M. Schwarzmüller",video  0
+"AWS Certified Cloud Practitioner Exam Guide","R. Daswani",book  14.9
+"AWS Certified Solutions Architect Study Guide with 900 Practice Test Questions, 4th Edition","D. Clinton, B. Piper",book  39.41
+"Building Microservices, 2nd Edition","S. Newman",book  39.06
+"CCNA 200-301 Official Cert Guide Library","W. Odom",book  21.23
+"CCNP and CCIE Enterprise Core ENCOR 350-401 Official Cert Guide","B. Edgeworth, R.G. Rios, D. Hucaby, J. Gooley",book  12.56
+"Clean Code Fundamentals, Expanded Edition","R.C. Martin",video  0
+"Clean Code: A Handbook of Agile Software Craftsmanship","R.C. Martin",book  26.92
+"CompTIA Security+ All-in-One Exam Guide, Sixth Edition (Exam SY0-601))","W.A. Conklin, G. White, D. Williams, R.L. Davis, C. Cothren",book  21.71
+"CompTIA Security+ SY0-601","S. Greene",video  0
+"Deep Learning with Python, Second Edition","F. Chollet",book  29.81
+"Designing Data-Intensive Applications","M. Kleppmann",book  39
+"Designing Machine Learning Systems","C. Huyen",book  15.16
+"Docker: Up & Running, 3rd Edition","S.P. Kane, K. Matthias",book  19.24
+"Effective Java, 3rd Edition","J. Bloch",book  35.65
+"Fluent Python, 2nd Edition","L. Ramalho",book  21.54
+"Fundamentals of Data Engineering","J. Reis, M. Housley",book  16.17
+"Fundamentals of Software Architecture","M. Richards, N. Ford",book  16.96
+"Generative Deep Learning, 2nd Edition","D. Foster",book  33.91
+"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition","A. Géron",book  45.82
+"Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 3rd Edition","A. Géron",book  24.46
+"Head First Design Patterns, 2nd Edition","E. Freeman, E. Robson",book  12.99
+"Head First Java, 3rd Edition","K. Sierra, B. Bates, T. Gee",book  15.17
+"Introducing Python, 2nd Edition","W. Lubanovic",book  36.11
+"JavaScript: The Definitive Guide, 7th Edition","D. Flanagan",book  48.95
+"Kafka: The Definitive Guide, 2nd Edition","G. Shapira, T. Palino, R. Sivaram, K. Petty",book  25.2
+"Kubernetes in Action","M. Luksa",book  30.36
+"Kubernetes: Up and Running, 3rd Edition","B. Burns, J. Beda, K. Hightower, L. Evenson",book  21.27
+"Learning Go","J. Bodner",book  35.34
+"Learning SQL, 3rd Edition","A. Beaulieu",book  15.98
+"Mastering API Architecture","J. Gough, D. Bryant, M. Auburn",book  24.2
+"Microservices Patterns","C. Richardson",book  33.44
+"Natural Language Processing with Transformers, Revised Edition","L. Tunstall, L. von Werra, T. Wolf",book  42.94
+"OCP Oracle Certified Professional Java SE 17 Developer Study Guide","S. Selikoff, J. Boyarsky",book  49.37
+"Programming Rust, 2nd Edition","J. Blandy, J. Orendorff, L.F.S. Tindall",book  28.59
+"Python Crash Course, 3rd Edition","E. Matthes",book  25.32
+"Python for Data Analysis, 3rd Edition","W. McKinney",book  37.4
+"Python Fundamentals","P.J. Deitel",video  0
+"Quick Start Guide to Large Language Models: Strategies and Best Practices for using ChatGPT and Other LLMs","S. Ozdemir",book  24.77
+"React - The Complete Guide (Includes Hooks, React Router, and Redux) - Second Edition","M. Schwarzmüller",video  0
+"Red Hat Certified System Administrator (RHCSA) RHEL 9","S. van Vugt",video  0
+"Software Engineering at Google","T. Winters, T. Manshreck, H. Wright",book  20
+"Terraform: Up and Running, 3rd Edition","Y. Brikman",book  28.81
+"The Pragmatic Programmer: your journey to mastery, 2nd Edition","D. Thomas, A. Hunt",book  18.14
+"The Rust Programming Language, 2nd Edition","S. Klabnik, C. Nichols",book  30.08
+"The Staff Engineer's Path","T. Reilly",book  9.59
+"What Are ChatGPT and Its Friends?","M. Loukides",book  42.71

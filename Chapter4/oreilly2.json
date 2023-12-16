@@ -1,0 +1,417 @@
+[
+{
+"title": "Designing Data-Intensive Applications",
+"author": "Martin Kleppmann",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Data is at the center of many challenges in system design today. Difficult issues need to be figured out, such as scalability, consistency, reliability, efficiency, and maintainability. In addition, we have ...",
+"format": "book"
+},
+{
+"title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+"edition": "3rd",
+"author": "Aurélien Géron",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Through a recent series of breakthroughs, deep learning has boosted the entire field of machine learning. Now, even programmers who know close to nothing about this technology can use simple, efficient ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Fluent Python",
+"edition": "2nd",
+"author": "Luciano Ramalho",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Don't waste time bending Python to fit patterns you've learned in other languages. Python's simplicity lets you become productive quickly, but often this means you aren't using everything the language has ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "React - The Complete Guide (Includes Hooks, React Router, and Redux)",
+"edition": "Second",
+"author": "Academind by Maximilian Schwarzmüller",
+"publisher": "Packt Publishing",
+"description": "This course is now updated for the latest version of React—React 18. React.js is the most popular JavaScript library you can learn and use these days to build modern, reactive user...",
+"format": "video",
+"language": "English"
+},
+{
+"title": "Fundamentals of Data Engineering",
+"author": "Joe Reis, Matt Housley",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Data engineering has grown rapidly in the past decade, leaving many software engineers, data scientists, and analysts looking for a comprehensive view of this practice. With this practical book, you'll learn ...",
+"format": "book"
+},
+{
+"title": "Natural Language Processing with Transformers",
+"edition": "Revised Edition",
+"author": "Lewis Tunstall, Leandro von Werra, Thomas Wolf",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Since their introduction in 2017, transformers have quickly become the dominant architecture for achieving state-of-the-art results on a variety of natural language processing tasks. If you're a data scientist or coder, ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Python Crash Course",
+"edition": 3,
+"author": "Eric Matthes",
+"publisher": "No Starch Press",
+"description": "Python Crash Course is the world's best-selling guide to the Python guide programming language, with over 1,500,000 copies sold to date! This fast-paced, thorough introduction to programming with Python will have ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Fundamentals of Software Architecture",
+"author": "Mark Richards, Neal Ford",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Salary surveys worldwide regularly place software architect in the top 10 best jobs, yet no real guide exists to help developers become architects. Until now. This book provides the first comprehensive...",
+"format": "book"
+},
+{
+"title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+"author": "Robert C. Martin",
+"publisher": "Pearson",
+"description": "Even bad code can function. But if code isn’t clean, it can bring a development organization to its knees. Every year, countless hours and significant resources are lost because of poorly ...",
+"format": "book"
+},
+{
+"title": "Generative Deep Learning",
+"edition": "2nd",
+"author": "David Foster",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Generative AI is the hottest topic in tech. This practical book teaches machine learning engineers and data scientists how to use TensorFlow and Keras to create impressive generative deep learning models ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "The Staff Engineer's Path",
+"author": "Tanya Reilly",
+"publisher": "O'Reilly Media, Inc.",
+"description": "For years, companies have rewarded their most effective engineers with management positions. But treating management as the default path for an engineer with leadership ability doesn't serve the industry well--or the ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "(ISC)2 CISSP Certified Information Systems Security Professional Official Study Guide",
+"edition": "9th",
+"author": "Mike Chapple, James Michael Stewart, Darril Gibson",
+"publisher": "Sybex",
+"description": "CISSP Study Guide - fully updated for the 2021 CISSP Body of Knowledge",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Terraform: Up and Running",
+"edition": "3rd Edition",
+"author": "Yevgeniy Brikman",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Terraform has become a key player in the DevOps world for defining, launching, and managing infrastructure as code (IaC) across a variety of cloud and virtualization platforms, including AWS, Google Cloud, ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Head First Design Patterns",
+"edition": "2nd",
+"author": "Eric Freeman, Elisabeth Robson",
+"publisher": "O'Reilly Media, Inc.",
+"description": "This book teaches design patterns that have been created and refined by software developers over the years to solve common problems in software design. The book uses a visually rich format to help readers understand the patterns and how they can be used.",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Building Microservices",
+"edition": "2nd",
+"author": "Sam Newman",
+"publisher": "O'Reilly Media, Inc.",
+"description": "As organizations shift from monolithic applications to smaller, self-contained microservices, distributed systems have become more fine-grained. But developing these new systems brings its own host of problems. This expanded second edition ...",
+"format": "book"
+},
+{
+"title": "Designing Machine Learning Systems",
+"author": "Chip Huyen",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Machine learning systems are both complex and unique. Complex because they consist of many different components and involve many different stakeholders. Unique because they're data dependent, with data varying wildly from ...",
+"format": "book"
+},
+{
+"title": "Head First Java",
+"edition": "3rd",
+"author": "Kathy Sierra, Bert Bates, Trisha Gee",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Head First Java is a complete learning experience in Java and object-oriented programming. With this book, you'll learn the Java language with a unique approach that goes beyond syntax and how-to manuals and helps you understand how to be a great programmer. You'll learn the fundamental concepts and techniques of object-oriented programming, and then build on those skills to develop workable software that solves real business problems.",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Learning SQL",
+"edition": "3rd",
+"author": "Alan Beaulieu",
+"publisher": "O'Reilly Media, Inc.",
+"description": "As data floods into your company, you need to put it to work right away—and SQL is the best tool for the job. With the latest edition of this introductory guide, ...",
+"format": "book"
+},
+{
+"title": "OCP Oracle Certified Professional Java SE 17 Developer Study Guide",
+"author": "Scott Selikoff, Jeanne Boyarsky",
+"publisher": "Sybex",
+"description": "An effective and practical study aid to the new OCP Java SE 17 Developer certification exam In the OCP Oracle Certified Professional Java SE 17 Developer Study Guide: Exam 1Z0-829, you'll ...",
+"format": "book"
+},
+{
+"title": "Python Fundamentals",
+"author": "Paul J. Deitel",
+"publisher": "Pearson",
+"description": "45+ hours of video instruction. Overview The professional programmer’s Deitel® video guide to Python development with the powerful IPython and Jupyter Notebooks platforms.",
+"format": "video",
+"language": "English"
+},
+{
+"title": "Programming Rust",
+"author": "Jim Blandy, Jason Orendorff, Leonora F. S. Tindall",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Systems programming provides the foundation for the world's computation. Writing performance-sensitive code requires a programming language that puts programmers in control of how memory, processor time, and other system resources are...",
+"format": "book",
+"edition": "2nd",
+"language": "English"
+},
+{
+"title": "Red Hat Certified System Administrator (RHCSA) RHEL 9",
+"author": "Sander van Vugt",
+"publisher": "Pearson IT Certification",
+"description": "Get intensive, hands-on RHEL 9 training with Sander van Vugt in this 4 day/16-hour live training course Red Hat Certified System Administrator (RHCSA) RHEL 9 Crash ...",
+"format": "video",
+"language": "English"
+},
+{
+"title": "A Guide to the Project Management Body of Knowledge (PMBOK® Guide)",
+"edition": "6th",
+"author": "Project Management Institute",
+"publisher": "Project Management Institute",
+"description": "The PMBOK® Guide – Sixth Edition – PMI’s flagship publication has been updated to reflect the latest good practices in project management. New to the Sixth Edition, each knowledge area will ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Kubernetes: Up and Running",
+"edition": 3,
+"author": "Brendan Burns, Joe Beda, Kelsey Hightower, Lachlan Evenson",
+"publisher": "O'Reilly Media, Inc.",
+"description": "This third edition comes with a dedicated playlist of interactive Katacoda labs mapped to each section of the book. As you read through each chapter, you can practice the concepts covered ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Clean Code Fundamentals",
+"edition": "Expanded Edition (Updated February 2022)",
+"author": "Robert C. Martin",
+"publisher": "Addison-Wesley Professional",
+"description": "Updated with episodes from SOLID Principles and Advanced TDD in the Clean Code Fundamentals series from Clean Coders by 'Uncle Bob' Martin.",
+"format": "video",
+"language": "English"
+},
+{
+"title": "Effective Java",
+"edition": 3,
+"author": "Joshua Bloch",
+"publisher": "Addison-Wesley Professional",
+"description": "Since this Jolt-award winning classic was last updated in 2008, the Java programming environment has changed dramatically. Java 7 and Java 8 introduced new features and functions including, forEach() method in ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow",
+"edition": "2nd",
+"author": "Aurélien Géron",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Through a series of recent breakthroughs, deep learning has boosted the entire field of machine learning. Now, even programmers who know close to nothing about this technology can use simple, efficient ...",
+"format": "book"
+},
+{
+"title": "Kafka: The Definitive Guide",
+"edition": "2nd",
+"author": "Gwen Shapira, Todd Palino, Rajini Sivaram, Krit Petty",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Every enterprise application creates data, whether it consists of log messages, metrics, user activity, or outgoing messages. Moving all this data is just as important as the data itself. With this comprehensive guide, you’ll learn how to build data pipelines and streaming applications using Kafka.",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Learning Go",
+"author": "Jon Bodner",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Go is rapidly becoming the preferred language for building web services. While there are plenty of tutorials available that teach Go's syntax to developers with experience in other programming languages, tutorials ...",
+"format": "book"
+},
+{
+"title": "Python for Data Analysis",
+"edition": "3rd",
+"author": "Wes McKinney",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Get the definitive handbook for manipulating, processing, cleaning, and crunching datasets in Python. Updated for Python 3.10 and pandas 1.4, the third edition of this hands-on guide is packed with practical ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "CompTIA Security+ All-in-One Exam Guide (Exam SY0-601))",
+"edition": "6th",
+"author": "Wm. Arthur Conklin, Greg White, Dwayne Williams, Roger L. Davis, Chuck Cothren",
+"publisher": "McGraw-Hill",
+"description": "This fully updated study guide delivers 100% coverage of every topic on the CompTIA Security+ exam. Designed to help you pass the exam with ease, this authoritative resource also serves as an essential on-the-job reference.",
+"format": "book",
+"language": "English"
+},
+{
+"title": "CompTIA Security+ SY0-601",
+"author": "Sari Greene",
+"publisher": "Pearson IT Certification",
+"description": "Get intensive, hands-on CompTIA Security+ training with Sari Greene in this 2-day/8-hour live training course: CompTIA Security+ SY0-601 Certification Crash Course. CompTIA Security+ (SY0-601) Complete Video ...",
+"format": "video",
+"language": "English"
+},
+{
+"title": "Deep Learning with Python",
+"edition": "2nd",
+"author": "Francois Chollet",
+"publisher": "Manning Publications",
+"description": "Deep Learning with Python, Second Edition introduces the field of deep learning using Python and the powerful Keras library. In this revised and expanded new edition, Keras creator François Chollet offers ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "The Pragmatic Programmer: your journey to mastery",
+"edition": "2nd",
+"author": "David Thomas, Andrew Hunt",
+"publisher": "Addison-Wesley Professional",
+"description": "'One of the most significant books in my life.' —Obie Fernandez, Author, The Rails Way 'Twenty years ago, the first edition of The Pragmatic Programmer completely changed the trajectory of my ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "JavaScript: The Definitive Guide",
+"edition": "7th",
+"author": "David Flanagan",
+"publisher": "O'Reilly Media, Inc.",
+"description": "JavaScript is the programming language of the web and is used by more software developers today than any other programming language. For nearly 25 years this best seller has been the ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Microservices Patterns",
+"author": "Chris Richardson",
+"publisher": "Manning Publications",
+"description": "Microservices Patterns teaches you how to develop and deploy production-quality microservices-based applications. This invaluable set of design patterns builds on decades of distributed system experience, adding new patterns for writing services and composing them into systems that scale and perform reliably under real-world conditions. It includes examples using Kubernetes, Istio, and Google Cloud Platform.",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Kubernetes in Action",
+"author": "Marko Luksa",
+"publisher": "Manning Publications",
+"description": "Kubernetes in Action teaches you to use Kubernetes to deploy container-based distributed applications. You'll start with an overview of Docker and Kubernetes before building your first Kubernetes cluster. You'll gradually expand ...",
+"format": "book"
+},
+{
+"title": "CCNA 200-301 Official Cert Guide Library",
+"author": "Wendell Odom",
+"publisher": "Cisco Press",
+"description": "Cisco Press has the only study guides approved by Cisco for the new CCNA certification. The new edition of the best-selling two-book value-priced CCNA 200-301 Official Cert Guide Library includes updated ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "What Are ChatGPT and Its Friends?",
+"author": "Mike Loukides",
+"publisher": "O'Reilly Media, Inc.",
+"description": "ChatGPT is not your run-of-the-mill automated chat server. It's much more. But if you want to understand the possibilities that ChatGPT (and similar models) offers your organization, it's important to move ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "AWS Certified Cloud Practitioner Exam Guide",
+"author": "Rajesh Daswani",
+"publisher": "Packt Publishing",
+"description": "Develop proficiency in AWS technologies and validate your skills by becoming an AWS Certified Cloud Practitioner",
+"format": "book"
+},
+{
+"title": "Introducing Python",
+"edition": "2nd Edition",
+"author": "Bill Lubanovic",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Easy to understand and fun to read, this updated edition of Introducing Python is ideal for beginning programmers as well as those new to the language. Author Bill Lubanovic takes you ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Angular - The Complete Guide",
+"edition": "2023 Edition",
+"author": "Maximilian Schwarzmüller",
+"publisher": "Packt Publishing",
+"description": "If you are looking to become a proficient Angular developer and build modern, responsive, and scalable web applications, then Angular - The Complete Guide (2023 Edition) is the course for you!",
+"format": "video"
+},
+{
+"title": "AWS Certified Solutions Architect Study Guide with 900 Practice Test Questions",
+"edition": "4th",
+"author": "David Clinton, Ben Piper",
+"publisher": "Sybex",
+"description": "Master Amazon Web Services solution delivery and efficiently prepare for the AWS Certified SAA-C03 Exam with this all-in-one study guide The AWS Certified Solutions Architect Study Guide: Associate (SAA-C03) Exam, 4th ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "The Rust Programming Language",
+"edition": "2nd Edition",
+"author": "Steve Klabnik, Carol Nichols",
+"publisher": "No Starch Press",
+"description": "The Rust Programming Language, 2nd Edition is the official guide to Rust 2021: an open source systems programming language that will help you write faster, more reliable software. Rust provides control ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Docker: Up & Running",
+"edition": "3rd Edition",
+"author": "Sean P. Kane, Karl Matthias",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Docker and Linux containers have fundamentally changed the way that organizations develop, deliver, and run software at scale. But understanding why these tools are important and how they can be successfully ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "A guide to the Project Management Body of Knowledge (PMBOK® Guide) — Seventh Edition and The Standard for Project Management",
+"author": "Project Management Institute",
+"publisher": "Project Management Institute",
+"description": "PMBOK® Guide is the go-to resource for project management practitioners. The project management profession has significantly evolved due to emerging technology, new approaches and rapid market changes. Reflecting this evolution, The ...",
+"format": "book"
+},
+{
+"title": "Mastering API Architecture",
+"author": "James Gough, Daniel Bryant, Matthew Auburn",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Most organizations with a web presence build and operate APIs; the doorway for customers to interact with the company's services. Designing, building, and managing these critical programs affect everyone in the ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "CCNP and CCIE Enterprise Core ENCOR 350-401 Official Cert Guide",
+"author": "Brad Edgeworth, Ramiro Garza Rios, David Hucaby, Jason Gooley",
+"publisher": "Pearson",
+"description": "Trust the best-selling Official Cert Guide series from Cisco Press to help you learn, prepare, and practice for exam success. They are built with the objective of providing assessment, review, and ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Software Engineering at Google",
+"author": "Titus Winters, Tom Manshreck, Hyrum Wright",
+"publisher": "O'Reilly Media, Inc.",
+"description": "Today, software engineers need to know not only how to program effectively but also how to develop proper engineering practices to make their codebase sustainable and healthy. This book emphasizes this ...",
+"format": "book",
+"language": "English"
+},
+{
+"title": "Quick Start Guide to Large Language Models: Strategies and Best Practices for using ChatGPT and Other LLMs",
+"author": "Sinan Ozdemir",
+"publisher": "Addison-Wesley Professional",
+"description": "The advancement of Large Language Models (LLMs) has revolutionized the field of Natural Language Processing in recent years. Models like BERT, T5, and ChatGPT have demonstrated unprecedented performance on a wide ...",
+"format": "book",
+"language": "English"
+}
+]
