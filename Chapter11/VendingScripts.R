@@ -1,4 +1,4 @@
- Scripts used for Chapter 11: Advanced Power BI and AI with Data Science Languages
+# Scripts used for Chapter 11: Advanced Power BI and AI with Data Science Languages
 
 #################################################################################
 # Ingesting Data with R
@@ -101,7 +101,7 @@ library(readr)
 library(xgboost)
 
 # Load CSV from GitHub
-url <- "https://raw.githubusercontent.com/tomweinandy/AIinPowerBI/main/vending_revenue.csv"
+url <- "https://raw.githubusercontent.com/tomweinandy/ai-with-power-bi/main/Chapter11/VendingRevenue.csv"
 df <- read.csv(url)
 
 # Clean data

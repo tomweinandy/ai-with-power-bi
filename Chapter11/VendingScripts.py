@@ -98,7 +98,7 @@ import tensorflow as tf
 from sklearn.preprocessing import LabelEncoder
 
 # Locate pre-trained model from GitHub
-algo_url = "https://raw.githubusercontent.com/tomweinandy/AIinPowerBI/main/vending_model.pickle"
+algo_url = "https://github.com/tomweinandy/ai-with-power-bi/raw/main/Chapter11/vending_model.pickle"
 
 # Clean data
 df = dataset
