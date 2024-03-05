@@ -41,11 +41,16 @@ df_rolling = df_rolling.rolling(6, min_periods=1).mean()
 df_rolling = df_rolling.reset_index()
 
 # Rename columns
-df_rolling = df_rolling.rename(columns={"Month":"month_year", "python machine learning: (United States)":"python_moving_average", "r machine learning: (United States)": "r_moving_average"})
+df_rolling = df_rolling.rename(
+    columns={"Month":"month_year",
+             "python machine learning: (United States)":"python_moving_average",
+             "r machine learning: (United States)": "r_moving_average"})
 
 # Insert original columns to the new dataframe
-df_rolling.insert(1, "python_machine_learning", dataset["python machine learning: (United States)"])
-df_rolling.insert(2, "r_machine_learning", dataset["r machine learning: (United States)"])
+df_rolling.insert(1, "python_machine_learning",
+                  dataset["python machine learning: (United States)"])
+df_rolling.insert(2, "r_machine_learning",
+                  dataset["r machine learning: (United States)"])
 
 # Encode date to proper format and insert into dataframe
 date_column = pd.to_datetime(df_rolling["month_year"]).dt.date
@@ -66,21 +71,28 @@ plt.ylabel("Google Search Frequency Index", fontsize=16)
 plt.yticks(fontsize=16)
 
 # Plot moving averages as a line
-plt.plot(dataset["month_year"], dataset["python_moving_average"], c="gold", linewidth=3)
-plt.plot(dataset["month_year"], dataset["r_moving_average"], c="red", linewidth=3)
+plt.plot(dataset["month_year"], dataset["python_moving_average"],
+         c="gold", linewidth=3)
+plt.plot(dataset["month_year"], dataset["r_moving_average"],
+         c="red", linewidth=3)
 
 # Plot monthly observations as a scatter plot
-plt.scatter(x=dataset["month_year"], y=dataset["python_machine_learning"], c="gold", alpha=0.5)
-plt.scatter(x=dataset["month_year"], y=dataset["r_machine_learning"], c="red", alpha=0.5)
+plt.scatter(x=dataset["month_year"], y=dataset["python_machine_learning"],
+            c="gold", alpha=0.5)
+plt.scatter(x=dataset["month_year"], y=dataset["r_machine_learning"],
+            c="red", alpha=0.5)
 
 # Set the x-axis tick positions, labels, and angle
-xticks = dataset["month_year"][6:][::12]   # skip first 6 labels (to start in January) then select every 12th label thereafter
+    # [6:] skips the first 6 labels (to start in January)
+    # [::12] then selects every 12th label thereafter
+xticks = dataset["month_year"][6:][::12]
 xtick_labels = [str(i) for i in xticks]
 plt.xticks(xticks, xtick_labels, fontsize=20)
 plt.xticks(rotation=30)
 
 # Add the legend
-plt.legend(["Python machine learning", "R machine learning"], fontsize=16, frameon=False)
+plt.legend(["Python machine learning", "R machine learning"],
+           fontsize=16, frameon=False)
 
 # Display plot
 plt.show()
@@ -98,7 +110,8 @@ import tensorflow as tf
 from sklearn.preprocessing import LabelEncoder
 
 # Locate pre-trained model from GitHub
-algo_url = "https://github.com/tomweinandy/ai-with-power-bi/raw/main/Chapter11/vending_model.pickle"
+algo_url = "https://github.com/tomweinandy/ai-with-power-bi/raw/main/Chapter11/" \
+           "vending_model.pickle"
 
 # Clean data
 df = dataset
@@ -117,7 +130,9 @@ loaded_model.set_weights(model_info["weights"])
 
 # Preprocess the data
 label_encoder = LabelEncoder()
-df["Location"] = label_encoder.fit_transform(df["Location"])  # Encode location labels
+
+# Encode location labels
+df["Location"] = label_encoder.fit_transform(df["Location"])
 
 # Split the data into input features (X)
 X = df.drop("Location", axis=1)

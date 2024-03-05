@@ -34,14 +34,18 @@ library(zoo)
 df_rolling <- dataset
 
 # Rename columns
-colnames(df_rolling)[colnames(df_rolling ) == "Month"] <- "month_year"
-colnames(df_rolling)[colnames(df_rolling ) == "python.machine.learning...United.States."] <- "python_machine_learning"
-colnames(df_rolling)[colnames(df_rolling ) == "r.machine.learning...United.States."] <- "r_machine_learning"
+colnames(df_rolling)[colnames(df_rolling )=="Month"] <- "month_year"
+col1 <- "python.machine.learning...United.States."
+colnames(df_rolling)[colnames(df_rolling )==col1] <- "python_machine_learning"
+col2 <- "r.machine.learning...United.States."
+colnames(df_rolling)[colnames(df_rolling )==col2] <- "r_machine_learning"
 
 # Add six-month moving average
 df_rolling$month_year <- as.Date(paste(df_rolling$month_year, "01", sep = "-"))
-df_rolling$python_moving_average <- rollapply(df_rolling$"python_machine_learning", width=6, FUN=mean, align="right", partial=TRUE)
-df_rolling$r_moving_average <- rollapply(df_rolling$r_machine_learning, width=6, FUN=mean, align="right", partial=TRUE)
+df_rolling$python_moving_average <- rollapply(df_rolling$"python_machine_learning",
+    width=6, FUN=mean, align="right", partial=TRUE)
+df_rolling$r_moving_average <- rollapply(df_rolling$r_machine_learning,
+    width=6, FUN=mean, align="right", partial=TRUE)
 
 # Load data
 print(df_rolling)
@@ -73,23 +77,23 @@ ggplot(dataset, aes(x=month_year)) +
   geom_line(aes(y=r_moving_average, color="red"), lwd=2) +
 
   # Add labels
-  labs(x = "", y = "Google Search Frequency Index") +
+  labs(x="", y="Google Search Frequency Index") +
   ggtitle("Change in Programming Language Popularity Over Time") +
 
   # Format
   theme_minimal() +
   theme(text=element_text(size=24)) +
-  theme(plot.title = element_text(hjust = 0.5),
-        panel.grid = element_blank(),
-        panel.border = element_rect(color = "black", fill=NA, size = 0.5),
-        legend.position = c(0.15, 0.9),
-        legend.background = element_blank()) +
+  theme(plot.title=element_text(hjust=0.5),
+        panel.grid=element_blank(),
+        panel.border=element_rect(color="black", fill=NA, size=0.5),
+        legend.position=c(0.15, 0.9),
+        legend.background=element_blank()) +
 
   # Override legend so colors, labels align with plot
   scale_color_identity(name="",
                        breaks=c("gold", "red"),
                        labels=c("Python machine learning", "R machine learning"),
-                       guide = "legend")
+                       guide="legend")
 
 
 #################################################################################
@@ -101,50 +105,56 @@ library(readr)
 library(xgboost)
 
 # Load CSV from GitHub
-url <- "https://raw.githubusercontent.com/tomweinandy/ai-with-power-bi/main/Chapter11/VendingRevenue.csv"
+repo <- "https://raw.githubusercontent.com/tomweinandy/ai-with-power-bi/"
+filepath <- "main/Chapter11/VendingRevenue.csv"
+url <- paste(repo, filepath, sep="")
 df <- read.csv(url)
 
 # Clean data
 df <- na.omit(df)
-df <- subset(df, select = -c(WeekStartingSat))
+df <- subset(df, select=-c(WeekStartingSat))
 df$Location <- as.factor(df$Location)
 
 # Split the data into training and validation sets
 set.seed(24)
-train_indices <- sample(1:nrow(df), 0.7 * nrow(df))
+train_indices <- sample(1:nrow(df), 0.7*nrow(df))
 train_data <- df[train_indices, ]
 test_data <- df[-train_indices, ]
 
 # Define the features from the target variable "Location"
 features <- setdiff(names(train_data), "Location")
 
-# Convert the data to DMatrix format (an efficient data structure used by xgboost)
-dtrain <- xgb.DMatrix(data = as.matrix(train_data[, features]), label = train_data$Location)
-dtest <- xgb.DMatrix(data = as.matrix(test_data[, features]), label = test_data$Location)
+# Convert the data to DMatrix format (an efficient data structure for xgboost)
+dtrain <- xgb.DMatrix(data=as.matrix(train_data[, features]),
+                      label=train_data$Location)
+dtest <- xgb.DMatrix(data=as.matrix(test_data[, features]),
+                      label=test_data$Location)
 
 # Set hyperparameters for the xgboost model
 params <- list(
-  objective = "multi:softprob", # For multi-class classification problems
-  num_class = length(levels(df$Location)), # Number of classes in the target variable
-  eta = 0.1, # Learning rate
-  max_depth = 6, # Maximum depth of each tree
-  nrounds = 100 # Number of boosting rounds
+  objective="multi:softprob", # For multi-class classification problems
+  num_class=length(levels(df$Location)), # Number of classes in target variable
+  eta=0.1, # Learning rate
+  max_depth=6, # Maximum depth of each tree
+  nrounds=100 # Number of boosting rounds
 )
 
 # Train the model
-model <- xgboost(params, data = dtrain, nrounds = params$nrounds)
+model <- xgboost(params, data=dtrain, nrounds=params$nrounds)
 
 # Shuffle and encode original dataset
-df_shuffled = df[sample(1:nrow(df)), ]
-df_shuffled_matrix = xgb.DMatrix(data = as.matrix(df_shuffled[, features]), label = df_shuffled$Location)
+df_shuffled <- df[sample(1:nrow(df)), ]
+df_shuffled_matrix <- xgb.DMatrix(data=as.matrix(df_shuffled[, features]),
+                                  label=df_shuffled$Location)
 
 # Make prediction using trained model
 final_predictions <- predict(model, df_shuffled_matrix)
 
 # Convert the predicted probabilities to class labels
-final_predicted_ints = as.integer(round(final_predictions))
+final_predicted_ints <- as.integer(round(final_predictions))
 location_mapping <- c('Factory', 'Library', 'Mall 1', 'Mall 2', 'Office')
-final_predicted_classes <- factor(final_predicted_ints, levels = 1:5, labels = location_mapping)
+final_predicted_classes <- factor(final_predicted_ints, levels=1:5,
+                                  labels=location_mapping)
 
 # Add predicted column to original cleaned dataframe
-df_final = cbind(PredictedLocation = final_predicted_classes, df_shuffled)
+df_final <- cbind(PredictedLocation=final_predicted_classes, df_shuffled)
